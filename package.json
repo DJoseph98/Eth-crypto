@@ -4,15 +4,17 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "deploy": "node deploy.js",
     "test": "mocha"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "@truffle/hdwallet-provider": "^1.5.1",
+    "dotenv": "^10.0.0",
     "ganache-cli": "^6.12.2",
     "mocha": "^9.1.2",
-    "solc": "^0.4.17",
+    "solc": "^0.8.9",
     "web3": "^1.6.0"
   },
   "devDependencies": {
